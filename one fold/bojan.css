@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+  
+    color:gray;
+   font-family: 'Open Sans', sans-serif;
+}
+/*navigation link begin*/
+header{
+    overflow:hidden;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-blend-mode: normal;
+    margin:0 auto;
+    width:100%;
+    
+}
+
+header .mainheader nav li{
+    display: inline;
+    padding:20px 50px;   
+}
+.mainsection{
+    margin-top: 20px;
+}
+header div.mainheader nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(67, 172, 172);
+
+}
+nav {
+    border-bottom:2px solid grey;
+    width:100%;
+}
+header div.mainheader nav ul{
+    text-align: center;
+    
+}
+/*navigation link end*/
+
+
+/*front view begin */
+  .box p{
+    min-height: 30%;
+    font-size:60px;
+    color:rgb(250, 249, 249);
+    margin:15px 0 0 5px;
+    text-align:center;
+    
+    
+
+}
+.box  span{
+    font-size: 25px;
+    margin:0px;
+    display:block;
+    color:white;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.box button{
+    background-color: rgb(10, 154, 238);
+    border:none;
+    outline:none;
+    padding: 20px;
+    width: 20%;
+    color:white;
+    transform: translate(200%,50%);
+    
+}
+button:hover{
+    background-color:rgb(6, 127, 136) ;
+    cursor:pointer;
+}
+ .bodycont{
+   margin-top:0;
+    overflow: hidden;
+    background: url("revolt-164_6wVEHfI-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+     height:100vh;
+    border-radius:5px;
+
+    
+    
+}
+.box{
+    width:100%;
+    height:100vh;
+    position: absolute;
+    overflow:hidden;
+    background-image:linear-gradient(to top left, rgba(0,0,0,0.7), rgba(0,0,0,0.8));
+}
+.tag h1{
+    color:black;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 60px;
+}
+.mainsection .bodycont .tag ul li a img{
+    height:50%;
+    width:50%;
+}
+.mainsection .bodycont .tag ul li{
+    background-color: white;
+    box-shadow: 10px 10px  grey;
+    padding: 60px;
+    
+}
+/*front view end */
+
+
+/*section 2 begin*/
+div#paragraph {
+    overflow:hidden;
+    margin-bottom: 50px;
+    
+    
+}
+#paragraph::after{
+    content:"";
+    clear: both;
+    display: table;
+}
+div#paragraph  h2{
+    color: aqua;
+    font-size: 30px;
+}
+
+
+
+#paragraph  div.items-display img{
+
+    width:100%;
+    border-radius: 5px;
+    display:inline;
+    margin-bottom: 30px;
+}
+#paragraph  div.items-display a{
+    height: 25px;
+    background-color: aqua;
+    padding:10px;
+    position: relative;
+    text-decoration: none;
+    color:white;
+}
+
+#paragraph div.items-display{
+    padding:5px;
+    float:left;
+    width:33.33%;
+    
+    
+}
+/*section 2 end*/
+
+footer.bottom{
+    background-color:grey;
+}
